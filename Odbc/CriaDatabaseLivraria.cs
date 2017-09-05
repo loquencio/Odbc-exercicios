@@ -7,7 +7,7 @@ using System.Data.Odbc;
 
 namespace Odbc
 {
-    class Program
+    class CriaDatabaseLivraria
     {
         static void Main(String[] args)
         {
@@ -15,9 +15,16 @@ namespace Odbc
 
             using (OdbcConnection Conexao = new OdbcConnection(ConexaoString))
             {
+                String Sql;
+                OdbcCommand Cmd;
+
                 Conexao.Open();
-                string Sql = @"IF EXISTS (SELECT name FROM master.dbo.sysdatabases WHERE name = 'livraria') DROP DATABASE livraria";
-                OdbcCommand Cmd = new OdbcCommand(Sql, Conexao);
+                Sql = @"IF EXISTS (SELECT name FROM master.dbo.sysdatabases WHERE name = 'livraria') DROP DATABASE livraria";
+                Cmd = new OdbcCommand(Sql, Conexao);
+                Cmd.ExecuteNonQuery();
+
+                Sql = @"CREATE DATABASE livraria";
+                Cmd = new OdbcCommand(Sql, Conexao);
                 Cmd.ExecuteNonQuery();
             }
         }

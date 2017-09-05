@@ -1,1 +1,6 @@
 C:\Projetos\Odbc\Odbc\bin\Debug\Odbc.exe.config
+C:\Projetos\Odbc\Odbc\bin\Debug\Odbc.exe
+C:\Projetos\Odbc\Odbc\bin\Debug\Odbc.pdb
+C:\Projetos\Odbc\Odbc\obj\Debug\Odbc.csprojResolveAssemblyReference.cache
+C:\Projetos\Odbc\Odbc\obj\Debug\Odbc.exe
+C:\Projetos\Odbc\Odbc\obj\Debug\Odbc.pdb
