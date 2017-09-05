@@ -3,3 +3,4 @@ C:\Projetos\Odbc\Odbc\bin\Release\Odbc.exe
 C:\Projetos\Odbc\Odbc\bin\Release\Odbc.pdb
 C:\Projetos\Odbc\Odbc\obj\Release\Odbc.exe
 C:\Projetos\Odbc\Odbc\obj\Release\Odbc.pdb
+C:\Projetos\Odbc\Odbc\obj\Release\Odbc.csprojResolveAssemblyReference.cache
