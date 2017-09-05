@@ -9,8 +9,8 @@ namespace Odbc.DAO
 {
     abstract class DAOGeral
     {
-        private string conexaoString;
-        private OdbcConnection conn;
+        protected string conexaoString;
+        protected OdbcConnection conn;
 
         public DAOGeral(string driver, string server, string database, string uid, string pwd)
         {
