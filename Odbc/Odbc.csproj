@@ -47,8 +47,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AlteraEditora.cs" />
+    <Compile Include="ConnectionFactory.cs" />
+    <Compile Include="DAO\DAOEditora.cs" />
     <Compile Include="DAO\DAOGeral.cs" />
     <Compile Include="DAO\DAOLivro.cs" />
+    <Compile Include="ListaEditoras.cs" />
     <Compile Include="Model\Livro.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="CriaDatabaseLivraria.cs" />
@@ -56,6 +60,7 @@
     <Compile Include="Model\Editora.cs" />
     <Compile Include="InsereEditora.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RemoveEditora.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
